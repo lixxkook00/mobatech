@@ -3,47 +3,11 @@
 @import '../src/scss/responsive';
 @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-@font-face {
-   font-family: 'DIN 2014';
-   src: url("./fonts/DIN2014/DIN2014-DemiBold.ttf") format("truetype");
-   font-weight: 500;
-}
-
-@font-face {
-   font-family: 'DIN 2014';
-   src: url("./fonts/DIN2014/DIN2014-Bold.ttf") format("truetype");
-   font-weight: 400;
-}
-
-@font-face {
-   font-family: 'DIN 2014';
-   src: url("./fonts/DIN2014/DIN2014-ExtraBold.ttf") format("truetype");
-   font-weight: 700;
-}
-
-
-@font-face {
-   font-family: 'DIN 2014';
-   src: url("./fonts/DIN2014/DIN2014-Regular.ttf") format("truetype");
-   font-weight: 400;
-}
-
-@font-face {
-   font-family: 'DIN 2014';
-   src: url("./fonts/DIN2014/DIN2014-Light.ttf") format("truetype");
-   font-weight: 300;
-}
-
-@font-face {
-   font-family: 'DIN 2014';
-   src: url("./fonts/DIN2014/DIN2014-ExtraLight.ttf") format("truetype");
-   font-weight: 200;
-}
-
 html,
 body,.App,
 .intro{
    overflow-x: hidden;
+   background-color: #000;
 }
 
 .App.loading{
@@ -56,5 +20,4 @@ body{
     font-family: 'Rubik', sans-serif;
     box-sizing: border-box;
     background-image: $primary-dark-blue;
-    // height: 2000px;
 }

@@ -15,16 +15,13 @@ export default function CircleChart() {
             indexLabelFontColor:"#fff",
             indexLabelFontWeight: "bold",
             indexLabelFontSize: 16,
-            yValueFormatString: "#'%'",
+            // yValueFormatString: "#'%'",
             dataPoints: [
-                { name:"Team Dev", y: 15 ,color: "#07BAF3"},
-                { name:"Advisor", y: 5 ,color: "#6FD6C2"},
-                { name:"Marketing, bounty, community, airdrop",y: 5 ,color: "#FFC002"},
-                { name:"Liquidity",y: 10,color: "#F29609" },
-                { name:"Hybridization",y: 10 ,color: "#FFEF85"},
-                { name:"Reward, staking, LP",y: 35 ,color: "#A891F9"},
-                { name:"Network",y: 10 ,color: "#C55ACA"},
-                { name:"Reserved (burn)",y: 10 ,color: "#FF536C"}
+                { name:"ICO Program", y: 60.25 ,color: "#07BAF3"},
+                { name:"Marketing and Community Development", y: 7.10 ,color: "#6FD6C2"},
+                { name:"Dev Team",y: 12.65 ,color: "#FFC002"},
+                { name:"Ecosystem Application",y: 12,color: "#F29609" },
+                { name:"Partners and Venture Capitals",y: 8 ,color: "#FFEF85"}
             ]
         }]
     }

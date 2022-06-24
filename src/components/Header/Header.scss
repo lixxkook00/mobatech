@@ -5,7 +5,7 @@
     background-color: rgba(0, 0, 0, 0.457);
     font-size: 20px;
     position: fixed;
-    height: 70px;
+    height: 60px;
     width: 100%;
     top: 0;
     left: 0;
@@ -59,11 +59,12 @@
     }
 
     &-wallet{
-        height: 50px;
+        font-size: 18px;
         display: flex;
         align-items: center;
         justify-content: center;
         font-weight: 700;
+        padding: 6px 8px;
         transition: all .5s ease-in-out;
 
         &:hover{

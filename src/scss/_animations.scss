@@ -1,6 +1,50 @@
 $jumpdots-loader-size: 100vmin;
 $jumpdots-loader-time: 3s;
 
+@keyframes grow-up-line {
+    0% {
+        transform: translateX(-100%) scaleX(0.5);
+    }
+    50% {
+        transform: translateX(50%) scaleX(0.75);
+    }
+    75% {
+        transform: translateX(75%) scaleX(1);
+    }
+    100% {
+        transform: translateX(150px) scaleX(1);
+    }
+}
+
+
+@keyframes glowing-game {
+  0% { 
+    opacity: .6;
+    transform: scale(.98);
+    box-shadow: 0 0 1px #1A9DE0, 0 0 2px #1A9DE0, 0 0 4px #1A9DE0, 0 0 8px #1A9DE0;
+  }
+  
+  100% { 
+    opacity: 1;
+    transform: scale(1);
+    box-shadow: 0 0 3px #1A9DE0, 0 0 5px #1A9DE0, 0 0 10px #1A9DE0, 0 0 15px #1A9DE0;
+  }
+}
+
+@keyframes glowing-game-hover {
+  0% { 
+    opacity: .6;
+    transform: scale(.98);
+    box-shadow: 0 0 1px #1A9DE0, 0 0 2px #1A9DE0, 0 0 4px #1A9DE0, 0 0 8px #1A9DE0;
+  }
+  
+  100% { 
+    opacity: 1;
+    transform: scale(1.6);
+    box-shadow: 0 0 3px #1A9DE0, 0 0 5px #1A9DE0, 0 0 10px #1A9DE0, 0 0 15px #1A9DE0;
+  }
+}
+
 @keyframes glowing-button {
   0% { 
     width: 100% ;
@@ -25,11 +69,11 @@ $jumpdots-loader-time: 3s;
 
 @keyframes logo-breathing {
   0% { 
-    filter: drop-shadow(0px 0px 10px rgba(255, 255, 255, 0.443));
+    filter: drop-shadow(0px 0px 14px rgba(255, 255, 255, 0.443));
   }
   
   100% { 
-    filter: drop-shadow(0px 0px 0px rgba(255, 255, 255, 0.38));
+    filter: drop-shadow(0px 0px 8px rgba(255, 255, 255, 0.38));
   }
 }
 

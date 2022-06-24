@@ -1,5 +1,17 @@
 .team{
-    padding: 100px 0 150px;
+    padding: 50px 0;
+
+    &-title{
+        margin: 20px;
+
+        .primary-gradient-text{
+            background-image: linear-gradient(180deg, #03023D 23%, #fff 53%, #03023D 78%);
+        }
+
+        .primary-title__line::before{
+            background-image: linear-gradient(180deg, #03023D 23%, #fff 51%, #03023D 78%);
+        }
+    }
 
     &-wrap{
         transition: all 0.5s ease-in-out;

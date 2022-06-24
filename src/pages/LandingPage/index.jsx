@@ -9,12 +9,12 @@ import Divider from '@mui/material/Divider';
 
 import Header from '../../components/Header'
 import Intro from '../../components/Intro'
-// import BackgroundIntro from '../../components/BackgroundIntro'
-// import About from '../../components/About'
 import Story from '../../components/Story'
-// import StoryBonus from '../../components/StoryBonus'
-import Tokenomic from '../../components/Tokenomic'
-// import Roadmap from '../../components/Roadmap'
+import Vision from '../../components/Vision'
+import TokenAllocation from '../../components/TokenAllocation'
+import Mission from '../../components/Mission'
+import Tournament from '../../components/Tournament';
+import Matches from '../../components/Matches';
 import Team from '../../components/Team'
 import Partners from '../../components/Partners'
 import Footer from '../../components/Footer'
@@ -108,7 +108,7 @@ export default function LandingPage() {
     };
 
   return (
-    <div>
+    <div className="home">
         {/* Modal Nav Mobile Menu*/}
 
         <div className="header-mobile-wrap hide-on-pc">
@@ -138,15 +138,27 @@ export default function LandingPage() {
         </Drawer>
 
         <Header />
-        {/* <BackgroundIntro /> */}
+
         <Intro />
-        {/* <About /> */}
+
         <Story />
-        {/* <StoryBonus /> */}
-        <Tokenomic />
+
+        <Vision />
+
+        <Mission />
+
+        <Tournament />
+
+        <Matches />
+
+        <TokenAllocation />
+
         {/* <Roadmap /> */}
+
         <Team />
+
         <Partners />
+
         <Footer />
 
         <div 

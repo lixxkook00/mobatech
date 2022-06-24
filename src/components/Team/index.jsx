@@ -19,9 +19,10 @@ export default function Team() {
            <div className="row">
                {/* TITLE */}
                <div className="col-xl-12">
-                    <div className="title centering">
+                    <div className="team-title centering">
                         <div className="primary-title primary-gradient-text">
                             Team
+                            <div className="primary-title__line"></div>
                         </div>
                     </div>
                </div>
@@ -74,16 +75,16 @@ export default function Team() {
                             <div className="team-wrap">
                                 <div className="team-card gradient-box-no-ani">
                                     <div className="team-card-avt">
-                                        <img className="img-width" src="./images/CMO.png" alt="" />
+                                        <img className="img-width" src="./images/CEO.png" alt="" />
                                     </div>
                                     <div className="team-card-name">
-                                        Meliora
+                                        Xavia
                                     </div>
                                     <div className="team-card-job">
-                                        CMO
+                                        CEO
                                     </div>
                                     <div className="team-card-desc">
-                                        Expert in marketing and digital strategies for 3 years. Passionate in stocks and crypto growing up.
+                                        Branding specialist. Passionate in creating brands, building teams, creating value-driven projects.
                                     </div>
                                 </div>
                             </div>
@@ -93,35 +94,35 @@ export default function Team() {
                             <div className="team-wrap">
                                 <div className="team-card gradient-box-no-ani">
                                     <div className="team-card-avt">
-                                        <img className="img-width" src="./images/CREATIVE DIRECTOR.png" alt="" />
+                                        <img className="img-width" src="./images/CEO.png" alt="" />
                                     </div>
                                     <div className="team-card-name">
-                                        Phoebe
+                                        Xavia
                                     </div>
                                     <div className="team-card-job">
-                                        Creative Director
+                                        CEO
                                     </div>
                                     <div className="team-card-desc">
-                                        More than 2 years experience in trading crypto, stocks and community building.   
+                                        Branding specialist. Passionate in creating brands, building teams, creating value-driven projects.
                                     </div>
                                 </div>
                             </div>
                         </SwiperSlide>
 
                         <SwiperSlide>
-                            <div className="team-wrap">    
+                            <div className="team-wrap">
                                 <div className="team-card gradient-box-no-ani">
                                     <div className="team-card-avt">
-                                        <img className="img-width" src="./images/CFO.png" alt="" />
+                                        <img className="img-width" src="./images/CEO.png" alt="" />
                                     </div>
                                     <div className="team-card-name">
-                                        Martha
+                                        Xavia
                                     </div>
                                     <div className="team-card-job">
-                                        CFO
+                                        CEO
                                     </div>
                                     <div className="team-card-desc">
-                                        4 years journey in system development. All started with a passion to create the difference.
+                                        Branding specialist. Passionate in creating brands, building teams, creating value-driven projects.
                                     </div>
                                 </div>
                             </div>
