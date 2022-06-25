@@ -5,9 +5,8 @@ export default function LoadingScreen() {
   return (
     <div className="loading-screen">
         <div className="loading-screen-wrap">
-            <div className="glitch" data-text="TIGERCYBER">TIGERCYBER</div>
-            <div className="glow">TIGERCYBER</div>
-            <img src="./images/loading.gif" alt="" />
+            <img src="./images/logo.png" alt="" className="img-height logo" />          
+            <img src="./images/loading.gif" className="img-height loading" alt="" />
         </div>
     </div>
   )
