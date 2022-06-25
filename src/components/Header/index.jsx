@@ -30,7 +30,7 @@ export default function Header() {
                         <div className="header-nav-item">
                             Shop
                         </div>
-                        <a href="" className="header-nav-item">
+                        <a href="https://mobatech-shop.vercel.app/staking" className="header-nav-item">
                             Staking
                         </a>
                         <a href="" className="header-nav-item">
