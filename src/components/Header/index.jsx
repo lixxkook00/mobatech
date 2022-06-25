@@ -41,7 +41,7 @@ export default function Header() {
                 <div className="col-xl-2">
                     {
                         account? ((<div className="header-wallet gradient-box">
-                            <a href="https://n1-marketplace.vercel.app">{shortAccount}</a>
+                            <a href="">{shortAccount}</a>
                         
                     </div>)) :
                         (<div className="header-wallet gradient-box">
