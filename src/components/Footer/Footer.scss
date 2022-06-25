@@ -1,5 +1,5 @@
 .footer{
-    height: 50vh;
+    height: 20vh;
     width: 100vw;
     // background-image: url(../../../public/images/FOOTER.png);
     background-repeat: no-repeat;
@@ -12,80 +12,6 @@
         flex: 1;
         display: flex;
         align-items: center;
-    }
-
-    &-img{
-        position: relative;
-        height: 500px;
-        display: flex;
-        justify-content: center;
-        animation: robot-fly 2s infinite alternate;
-
-        .body{
-            z-index: 2;
-        }
-
-        .wing{
-            height: 50% !important;
-            position: absolute;
-            transition: all 0.5s ease-in-out;
-
-            &-left{
-                top: 10%;
-                left: 5.5%;
-                animation: robot-left-wing-fly 2s infinite alternate;
-            }
-
-            &-right{
-                top: 10.9%;
-                right: 8%;
-                transform: rotate(-3.3deg);
-                animation: robot-right-wing-fly 2s infinite alternate;
-            }
-        }
-
-        .knife{
-            position: absolute;
-            height: 67.6% !important;
-            top: 36.4%;
-            right: 46.3%;
-
-            transition: all 0.5s ease-in-out;
-            animation: knife-glow 1s infinite alternate;
-        }
-
-        .wrapper{
-            transition: all 0.5s ease-in-out;
-            transform: scale(0.2) rotate(180deg);
-            position: absolute;
-            animation: fire-fly 2s infinite alternate;
-        }
-
-        .fire-wrapper--left{
-            bottom: 8%;
-            left: 34%;
-        }
-
-        .fire-wrapper--right{
-            bottom: 18%;
-            right: 40%;
-        }
-    }
-
-    &-coming{
-        display: flex;
-        align-items: end;
-        margin-bottom: 40px;
-    }
-
-    &-logo{
-        width: 40%;
-    }
-
-    &-text{
-        font-size: 60px;
-        color: #fff;
-        font-weight: 600;    
     }
 
     &-infor{
@@ -107,7 +33,7 @@
             height: 35px;
             width: 35px;
             border-radius: 50%;
-            background-image: linear-gradient(45deg, #8469FF 10%, #599DFE 90%);
+            background-image: linear-gradient(180deg, #3CA6DD 23%, #fff 53%, #3CA6DD 78%);
             transition: all 0.5s ease-in-out;
 
             a{
@@ -121,7 +47,6 @@
 
             &:hover{
                 cursor: pointer;
-                background-image: linear-gradient(45deg, #599DFE 10%, #8469FF 90%);
                 transform: scale(1.2) rotate(360deg)
             }
         }

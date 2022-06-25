@@ -11,8 +11,10 @@ import Header from '../../components/Header'
 import Intro from '../../components/Intro'
 import Story from '../../components/Story'
 import Vision from '../../components/Vision'
+import Tokenomic from '../../components/Tokenomic'
 import TokenAllocation from '../../components/TokenAllocation'
 import Mission from '../../components/Mission'
+import Roadmap from '../../components/Roadmap'
 import Tournament from '../../components/Tournament';
 import Matches from '../../components/Matches';
 import Team from '../../components/Team'
@@ -38,8 +40,8 @@ export default function LandingPage() {
         >
             <div>
                 <div className="cart-title">
-                    <div className=" nav-logo">
-                       <img src="/images/logo.png" alt="" />
+                    <div className="nav-logo">
+                       <img className="img-height" src="/images/logo.png" alt="" />
                     </div>
                     <div className="cart-title-close">
                         <div className="clear-btn">
@@ -60,7 +62,7 @@ export default function LandingPage() {
             <div className="tempty-title" >
                 <a href="/" className="nav-item">
                     <div className="nav-item-name" >
-                        Galerry
+                        Whitepaper
                     </div>
                 </a>
             </div>
@@ -68,7 +70,7 @@ export default function LandingPage() {
              <div className="tempty-title" >
                 <a href="https://whitepaper.sqfgame.com" className="nav-item">
                     <div className="nav-item-name" >
-                        Whitepaper
+                        Shop
                     </div>
                 </a>
             </div>
@@ -76,18 +78,18 @@ export default function LandingPage() {
             <div className="tempty-title">
                 <a href="https://n1-marketplace.vercel.app/" className="nav-item">
                     <div className="nav-item-name nav-item-name--primary">
-                        Shop
+                        Staking
                     </div>
                 </a>
             </div>
 
-            {/* <div className="tempty-title">
+            <div className="tempty-title">
                 <a href="https://n1-marketplace.vercel.app/" className="nav-item">
                     <div className="nav-item-name nav-item-name--primary">
-                        Marketplace
+                        Explore
                     </div>
                 </a>
-            </div> */}
+            </div>
 
             <div className="tempty-title">
                 <a href="/" className="nav-item">
@@ -110,7 +112,6 @@ export default function LandingPage() {
   return (
     <div className="home">
         {/* Modal Nav Mobile Menu*/}
-
         <div className="header-mobile-wrap hide-on-pc">
             <div className="container">
                 <div className="row">
@@ -151,9 +152,11 @@ export default function LandingPage() {
 
         <Matches />
 
-        <TokenAllocation />
+        <Roadmap />
 
-        {/* <Roadmap /> */}
+        <Tokenomic />
+
+        <TokenAllocation />
 
         <Team />
 

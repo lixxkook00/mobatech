@@ -19,7 +19,9 @@ export default function Story() {
                         </div>
                     </div>
                     <div className="paragraph">
-                        MOBATECH là nhà cung cấp phần mềm độc lập, nghiên cứu và đầu tư công nghệ. Chúng tôi đang cung cấp các nền tảng trò chơi mở và các dịch vụ chuyên nghiệp cho cả lĩnh vực trò chơi online và offline. Chúng tôi tin tưởng vào các giải pháp công nghệ định hướng giá trị giúp đơn giản hóa hoạt động kinh doanh của bạn cho dù bạn là nhà điều hành, nhà cung cấp hay cơ quan quản lý.
+                        MOBATECH is an independent software provider, technology research and investment. We are delivering open gaming platforms and professional services to both the online and land based gaming sectors. 
+                        We believe in value driven technology solutions that simplify your business whether you are an operator, vendor or regulator.
+                        .
                     </div>
                 </div>
             </div>

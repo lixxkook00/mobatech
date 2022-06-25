@@ -5,68 +5,70 @@
         margin: 20px;
 
         .primary-gradient-text{
-            background-image: linear-gradient(180deg, #03023D 23%, #fff 53%, #03023D 78%);
+            background-image: linear-gradient(180deg, #8C5945 23%, #fff 53%, #8C5945 78%);
         }
 
         .primary-title__line::before{
-            background-image: linear-gradient(180deg, #03023D 23%, #fff 51%, #03023D 78%);
+            background-image: linear-gradient(180deg, #8C5945 23%, #fff 51%, #8C5945 78%);
         }
     }
 
-    &-wrap{
-        transition: all 0.5s ease-in-out;
-        transform: scale(.95);
+    &-avt{
+        height: 700px;
     }
 
-    &-card{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        padding: 20px;
-        border-radius: 22px;
-        transition: all 0.5s ease-in-out;
-        
+    &-infor{
+        margin-top: 100px;
+
+        &-edu{
+            font-size: 14px;
+            text-transform: uppercase;
+            color: #8C5945;
+            margin-top: 20px;
+        }
 
         &-name{
-            margin-top: 12px;
-            font-size: 24px;
-            font-weight: 600;
+            font-size: 50px;
+            text-transform: uppercase;
+            color: #8C5945;
+            font-weight: 700;
+            margin: 12px 0;
         }
 
         &-job{
-            font-size: 20px;
-            font-weight: 500;
+            font-size: 22px;
+            color: #868686;
         }
 
         &-desc{
-            margin-top: 10px;
-            text-align: center;
-            min-height: 100px;
-            line-height: 30px;
-            padding: 0 10px;
+            color: rgb(197, 197, 197);
+            margin: 8px 0;
+            line-height: 28px;
+            font-weight: 500;
         }
-    }
-    .swiper{
-        padding-bottom: 20px;   
-    }
 
-    .swiper-pagination{
-        display: block !important;
-        transition: all .2s ease-in-out;
-        transform: translateY(18px);
+        &-social{
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            margin-top: 20px;
 
-        .swiper-pagination-bullet{
-            width: 20px;
-            height: 5px;
-            border-radius: 3px;
-            transition: all 1s ease-in-out;
-            background-color: #4B5E8D;
+            &-item{
+                margin: 8px;
+                i{  
+                    color: #8C5945;
+                    font-size: 26px;
+                    transition: all 0.5s ease-in-out;
+                }
 
-            &-active{
-                width: 30px;
-                background-image: linear-gradient(90deg, #CA6AFF 10%, #1DD2FF 90%);
+                &:hover{
+                    cursor: pointer;
+
+                    i{
+                        transform: scale(1.3);
+                    }
+                }
             }
         }
-
     }
 }

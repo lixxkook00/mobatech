@@ -1,18 +1,11 @@
-import React from 'react'
+import React, { Suspense, useRef, useState } from 'react'
+import { Canvas } from '@react-three/fiber'
+import { OrbitControls, Stage } from '@react-three/drei'
+import Model from '../Model'
 import './Team.scss'
 
-// Import Swiper React components
-import { Swiper, SwiperSlide } from "swiper/react";
-
-// Import Swiper styles
-import "swiper/css";
-import "swiper/css/pagination";
-import "swiper/css/navigation";
-
-// import required modules
-import { Pagination, Navigation,Autoplay } from "swiper";
-
 export default function Team() {
+    const ref = useRef()
   return (
     <div className="team">
        <div className="container">
@@ -27,108 +20,56 @@ export default function Team() {
                     </div>
                </div>
 
-               {/* SLIDER */}
-               <div className="col-xl-12">
-                   <Swiper
-                        modules={[Pagination, Navigation,Autoplay]}
-                        slidesPerView={1}
-                        spaceBetween={30}
-                        slidesPerGroup={1}
-                        loop={true}
-                        // loopFillGroupWithBlank={true}
-                        // autoplay={{ delay: 3000 }}
-                        pagination={{
-                            clickable: true,
-                        }}
-                        breakpoints={{
-                            768: {
-                                slidesPerView: 2,
-                            },
-                            // when window width is >= 768px
-                            1000: {
-                                slidesPerView: 3,
-                            },
-                        }}
-                        navigation={true}
-                        className="mySwiper"
-                    >
-                        <SwiperSlide>
-                            <div className="team-wrap">
-                                <div className="team-card gradient-box-no-ani">
-                                    <div className="team-card-avt">
-                                        <img className="img-width" src="./images/CEO.png" alt="" />
-                                    </div>
-                                    <div className="team-card-name">
-                                        Xavia
-                                    </div>
-                                    <div className="team-card-job">
-                                        CEO
-                                    </div>
-                                    <div className="team-card-desc">
-                                        Branding specialist. Passionate in creating brands, building teams, creating value-driven projects.
-                                    </div>
-                                </div>
-                            </div>
-                        </SwiperSlide>
-                        
-                        <SwiperSlide>
-                            <div className="team-wrap">
-                                <div className="team-card gradient-box-no-ani">
-                                    <div className="team-card-avt">
-                                        <img className="img-width" src="./images/CEO.png" alt="" />
-                                    </div>
-                                    <div className="team-card-name">
-                                        Xavia
-                                    </div>
-                                    <div className="team-card-job">
-                                        CEO
-                                    </div>
-                                    <div className="team-card-desc">
-                                        Branding specialist. Passionate in creating brands, building teams, creating value-driven projects.
-                                    </div>
-                                </div>
-                            </div>
-                        </SwiperSlide>
+               <div className="col-xl-6 col-12">
+                    <div className="team-infor">
+                        <div className="team-infor-edu">
+                            Master Degree in Finance & Business Administration
+                        </div>
 
-                        <SwiperSlide>
-                            <div className="team-wrap">
-                                <div className="team-card gradient-box-no-ani">
-                                    <div className="team-card-avt">
-                                        <img className="img-width" src="./images/CEO.png" alt="" />
-                                    </div>
-                                    <div className="team-card-name">
-                                        Xavia
-                                    </div>
-                                    <div className="team-card-job">
-                                        CEO
-                                    </div>
-                                    <div className="team-card-desc">
-                                        Branding specialist. Passionate in creating brands, building teams, creating value-driven projects.
-                                    </div>
-                                </div>
-                            </div>
-                        </SwiperSlide>
+                        <div className="team-infor-name">
+                            Nark Butcher
+                        </div>
 
-                        <SwiperSlide>
-                            <div className="team-wrap">
-                                <div className="team-card gradient-box-no-ani">
-                                    <div className="team-card-avt">
-                                        <img className="img-width" src="./images/CEO.png" alt="" />
-                                    </div>
-                                    <div className="team-card-name">
-                                        Xavia
-                                    </div>
-                                    <div className="team-card-job">
-                                        CEO
-                                    </div>
-                                    <div className="team-card-desc">
-                                        Branding specialist. Passionate in creating brands, building teams, creating value-driven projects.
-                                    </div>
-                                </div>
-                            </div>
-                        </SwiperSlide>
-                    </Swiper>
+                        <div className="team-infor-job">
+                            CEO - Moba Technology Research & Investment Ltd
+                        </div>
+
+                        <div className="team-infor-desc">
+                            Utilizing many of the same tactics commonly used today. From my then unprecedented guerrilla operating and branding techniques to the continuously innovative ways in which I use brand integration. and remain a cutting edge business strategist.
+                        </div>
+
+                        <div className="team-infor-social">
+                            <a href="" className="team-infor-social-item">
+                                <i class="fa-solid fa-envelope"></i>
+                            </a>
+
+                            <a href="" className="team-infor-social-item">
+                                <i class="fa-brands fa-twitter"></i>
+                            </a>
+
+                            <a href="" className="team-infor-social-item">
+                                <i class="fa-brands fa-instagram"></i>
+                            </a>
+
+                            <a href="" className="team-infor-social-item">
+                                <i class="fa-brands fa-facebook"></i>
+                            </a>
+                        </div>
+                    </div>
                </div>
+
+                <div className="col-xl-6 col-12">
+                    <div className="team-avt centering">
+                    <Canvas shadows dpr={[1, 2]} camera={{ fov: 50 , position: [0, 0, 0] }}>
+                        <Suspense fallback={null}>
+                        <Stage controls={ref} preset="soft" intensity={0.8}  contactShadow={false} environment="city">
+                            <Model />
+                        </Stage>
+                        </Suspense>
+                        <OrbitControls ref={ref} autoRotate enableZoom={false} enablePan={true}/>
+                    </Canvas>
+                    </div>
+                </div>
            </div>
        </div>
     </div>

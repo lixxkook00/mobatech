@@ -30,10 +30,10 @@ export default function Header() {
                         <div className="header-nav-item">
                             Shop
                         </div>
-                        <a href="https://n1-marketplace.vercel.app/marketplace" className="header-nav-item">
+                        <a href="" className="header-nav-item">
                             Staking
                         </a>
-                        <a href="https://n1-marketplace.vercel.app/marketplace" className="header-nav-item">
+                        <a href="" className="header-nav-item">
                             Explore
                         </a>
                     </div>

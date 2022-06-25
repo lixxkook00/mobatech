@@ -15,9 +15,10 @@ export default function Vision() {
                         </div>
                     </div>
                     <div className="paragraph">
-                        Trong ngắn hạn chúng tôi mong muốn trở thành nền tảng chơi game đa kênh, đa nền tảng, thu hút nhiều tựa game và tạo ra các giải đấu hấp dẫn. Một nơi để các đổi tuyển game tạo ra các cuộc đối đầu bùng nổ.
-
-                        Trong dài hạn MOBATECH sẽ trở thành một trong 5 doanh nghiệp quản lý dịch vụ trò chơi hàng đầu thế giới. Hỗ trợ quảng bá cho các tựa game tiềm năng. Xây dựng không gian Metaverse dành riêng cho game thủ. 
+                        In the short term, we aspire to become a multi-channel, cross-platform gaming environment that attracts many exciting games and tournaments. The venue for a professional esport tournament in the digital space. We create a playground for esports teams to have explosive confrontations.
+                        <br />
+                        In the long term, MOBATECH targets becoming one of the top 5 game service management enterprises in the world. Promotional support for potential games. We will build a metaverse exclusively for gamers.
+ 
                     </div>
                 </div>
 

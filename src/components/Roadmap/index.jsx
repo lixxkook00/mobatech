@@ -7,117 +7,127 @@ export default function Roadmap() {
         <div className="container">
             <div className="row">
                 <div className="col-xl-12">
-                    <div className="title centering-left">
+                    <div className="roadmap-title centering">
                         <div className="primary-title primary-gradient-text">
                             Roadmap
+                            <div className="primary-title__line"></div>
                         </div>
                     </div>
                 </div>
-                <div className="col-xl-12">
-                    <div className="row roadmap-content">
-                        {/* STAGE 01 */}
-                        <div className="col-xl-4">
-                            <div className="roadmap-section roadmap-section--1">
-                                <div className="roadmap-title">
-                                    Stage 01
-                                </div>
-                                <div className="roadmap-name">
-                                    Start
-                                </div>
-                                <div className="roadmap-ul">
-                                    <div className="roadmap-li">
-                                        <div className="roadmap-li-doc"></div> Mint NFT Genesis
-                                    </div>
-
-                                    <div className="roadmap-li">
-                                        <div className="roadmap-li-doc"></div> Sell on NFT Binance
-                                    </div>
-
-                                    <div className="roadmap-li">
-                                        <div className="roadmap-li-doc"></div>Staking NFT
-                                    </div>
-                                </div>
-
-                                <div className="roadmap-icon-mobile hide-on-pc">
-                                    <img className="img-height roadmap-icon-mobile-img roadmap-icon-mobile-img--1" src="./images/moibile.png" alt="" />
-                                    <img className="img-height roadmap-icon-mobile-img roadmap-icon-mobile-img--2" src="./images/moibile 2.png" alt="" />
-                                </div>
-                            </div>
+                <div class="container-x">
+                    <div class="timeline-block timeline-block-right">
+                        <div class="marker"></div>
+                        <div class="timeline-content">
+                            <h3>02/2021</h3>
+                            <span>Idea and Planning</span>
                         </div>
+                    </div>
 
-                        {/* STAGE 02 */}
-                        <div className="col-xl-4">
-                            <div className="roadmap-section roadmap-section--2">
-                                <div className="roadmap-title">
-                                    Stage 02
-                                </div>
-                                <div className="roadmap-name">
-                                    Release of  NFT Baby
-                                </div>
-                                <div className="roadmap-ul">
-                                    <div className="roadmap-li">
-                                        <div className="roadmap-li-doc"></div>Mint NFT Baby on binance Smart Chain
-                                    </div>
-                                    <div className="roadmap-li">
-                                        <div className="roadmap-li-doc"></div>NFT Baby is created from the breeding between two NFT Genesis with the fee being token A
-                                    </div>
-                                    <div className="roadmap-li">
-                                        <div className="roadmap-li-doc"></div>The breeding limit in NFT Genesis is 18 times.
-                                    </div>
-                                    <div className="roadmap-li">
-                                        <div className="roadmap-li-doc"></div>Marketplace
-                                    </div>
-                                </div>
-
-                                <div className="roadmap-icon-mobile hide-on-pc">
-                                    <img className="img-height roadmap-icon-mobile-img roadmap-icon-mobile-img--1" src="./images/moibile.png" alt="" />
-                                    <img className="img-height roadmap-icon-mobile-img roadmap-icon-mobile-img--2" src="./images/moibile 2.png" alt="" />
-                                </div>
-                            </div>
+                    <div class="timeline-block timeline-block-left">
+                        <div class="marker"></div>
+                        <div class="timeline-content">
+                            <h3>05/2021</h3>
+                            <span>Market demand survey</span>
                         </div>
+                    </div>
 
-                        {/* STAGE 03 */}
-                        <div className="col-xl-4">
-                            <div className="roadmap-section roadmap-section--3">
-                                <div className="roadmap-title">
-                                    Stage 03
-                                </div>
-                                <div className="roadmap-name">
-                                    Gambling
-                                </div>
-                                <div className="roadmap-ul">
-                                    <div className="roadmap-li">
-                                        <div className="roadmap-li-doc"></div>Create an ecosystem for NFT
-                                    </div>
-                                    <div className="roadmap-li">
-                                        <div className="roadmap-li-doc"></div>Create a Gambling Platform
-                                    </div>
-                                </div>
+                    <div class="timeline-block timeline-block-right">
+                        <div class="marker"></div>
+                        <div class="timeline-content">
+                            <h3>07/2021</h3>
+                            <span>Solution thinking</span>
+                        </div>
+                    </div>
 
-                                <div className="roadmap-icon-mobile hide-on-pc">
-                                    <img className="img-height roadmap-icon-mobile-img roadmap-icon-mobile-img--1" src="./images/moibile.png" alt="" />
-                                    <img className="img-height roadmap-icon-mobile-img roadmap-icon-mobile-img--2" src="./images/moibile 2.png" alt="" />
-                                </div>
-                            </div>
+                    <div class="timeline-block timeline-block-left">
+                        <div class="marker"></div>
+                        <div class="timeline-content">
+                            <h3>09/2021</h3>
+                            <span>Logical flow and operating plan</span>
+                        </div>
+                    </div>
+
+                    <div class="timeline-block timeline-block-right">
+                        <div class="marker"></div>
+                        <div class="timeline-content">
+                            <h3>04/2022</h3>
+                            <span>Test applying blockchain</span>
+                        </div>
+                    </div>
+
+                    <div class="timeline-block timeline-block-left">
+                        <div class="marker"></div>
+                        <div class="timeline-content">
+                            <h3>05/2022</h3>
+                            <span>Layout Design</span>
+                        </div>
+                    </div>
+
+                    <div class="timeline-block timeline-block-right">
+                        <div class="marker"></div>
+                        <div class="timeline-content">
+                            <h3>06/2022</h3>
+                            <span>Token and basic platform building</span>
+                        </div>
+                    </div>
+
+                    <div class="timeline-block timeline-block-left">
+                        <div class="marker"></div>
+                        <div class="timeline-content">
+                            <h3>07/2022</h3>
+                            <span>Kicks off ICO program</span>
+                        </div>
+                    </div>
+
+                    <div class="timeline-block timeline-block-right">
+                        <div class="marker"></div>
+                        <div class="timeline-content">
+                            <h3>10/2022</h3>
+                            <span>Start stalking program</span>
+                        </div>
+                    </div>
+
+                    <div class="timeline-block timeline-block-left">
+                        <div class="marker"></div>
+                        <div class="timeline-content">
+                            <h3>12/2022</h3>
+                            <span>Application via Android and IOS</span>
+                        </div>
+                    </div>
+
+                    <div class="timeline-block timeline-block-right">
+                        <div class="marker"></div>
+                        <div class="timeline-content">
+                            <h3>Q4/2023</h3>
+                            <span>Beta version of gaming marketplace platform</span>
+                        </div>
+                    </div>
+
+                    <div class="timeline-block timeline-block-left">
+                        <div class="marker"></div>
+                        <div class="timeline-content">
+                            <h3>Q1/2024</h3>
+                            <span>Official Launching</span>
+                        </div>
+                    </div>
+
+                    <div class="timeline-block timeline-block-right">
+                        <div class="marker"></div>
+                        <div class="timeline-content">
+                            <h3>Q2/2024</h3>
+                            <span>Massive community marketing, partner boning and run business</span>
+                        </div>
+                    </div>
+
+                    <div class="timeline-block timeline-block-left">
+                        <div class="marker"></div>
+                        <div class="timeline-content">
+                            <h3>2025</h3>
+                            <span>Research on 3D new platform</span>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <div className="roadmap-end">
-            <img className="img-width" src="./images/ROADMAP.png" alt="" />
-
-            <img src="./images/road-map-1.png" alt="" className="roadmap-end-child roadmap-end-child--1 img-width circle" />
-
-            <img src="./images/road-map-2.png" alt="" className="roadmap-end-child roadmap-end-child--2 img-width rectangle" />
-        
-            <img src="./images/road-map-1.png" alt="" className="roadmap-end-child roadmap-end-child--3 img-width circle" />
-
-            <img src="./images/road-map-2.png" alt="" className="roadmap-end-child roadmap-end-child--4 img-width rectangle" />
-
-            <img src="./images/road-map-1.png" alt="" className="roadmap-end-child roadmap-end-child--5 img-width circle" />
-
-            <img src="./images/road-map-2.png" alt="" className="roadmap-end-child roadmap-end-child--6 img-width rectangle" />
         </div>
     </div>
   )

@@ -19,7 +19,7 @@ export default function Mission() {
                         </div>
                     </div>
                     <div className="paragraph">
-                        Sứ mệnh của chúng tôi là tạo nên một sân chơi công bằng cho tất cả game thủ, nhà phát triển và nhà tài trợ. Phát triển nền tảng Metaverse giúp người xem có thể theo dõi giải đấu yêu thích của mình theo một cách chân thực, choáng ngợp nhất.
+                        Our mission is to create an equitable playing field for all gamers. Help developers and sponsors maximize the benefits of participating in the MOBATECH ecosystem. We will develop a metaverse platform where viewers can watch their favorite tournaments in the most real way. Become one of the top 5 communities organizing Esport tournaments.
                     </div>
                 </div>
             </div>

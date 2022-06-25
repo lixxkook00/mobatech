@@ -3,8 +3,12 @@
     background-repeat: no-repeat;
     background-position: top center;
     background-size: cover;
-    padding: 150px 0 0;
+    padding: 20px 0 0;
     overflow: hidden;
+
+    .title{
+        margin-bottom: 20px;
+    }
 
     &-logo{
         display: flex;
@@ -21,7 +25,7 @@
             filter: drop-shadow(0 0 10px #445BBF);
 
             img{
-                transform: scale(1.2);
+                transform: scale(1.12);
             }
         }
     }
