@@ -94,7 +94,7 @@ export default function LandingPage() {
             <div className="tempty-title">
                 <a href="/" className="nav-item">
                     <div className="nav-item-name nav-item-name--primary">
-                        Wallet Connect
+                        Sign Up/Register
                     </div>
                 </a>
             </div>

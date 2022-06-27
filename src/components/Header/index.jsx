@@ -39,7 +39,7 @@ export default function Header() {
                     </div>
                 </div>
                 <div className="col-xl-2">
-                    {
+                    {/* {
                         account? ((<div className="header-wallet gradient-box">
                             <a href="">{shortAccount}</a>
                         
@@ -47,7 +47,11 @@ export default function Header() {
                         (<div className="header-wallet gradient-box">
                         Connect Wallet
                     </div>)
-                    }
+                    } */}
+
+                    <div className="header-wallet gradient-box">
+                        Sign Up
+                    </div>
                 </div>
             </div>
         </div>

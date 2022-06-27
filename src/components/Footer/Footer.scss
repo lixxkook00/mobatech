@@ -49,6 +49,11 @@
                 cursor: pointer;
                 transform: scale(1.2) rotate(360deg)
             }
+
+            &-second{
+               background-color: #3CA6DD;
+               background-image: none;
+            }
         }
 
         &-text{
