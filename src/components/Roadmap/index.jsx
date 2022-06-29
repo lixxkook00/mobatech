@@ -15,7 +15,7 @@ export default function Roadmap() {
                     </div>
                 </div>
                 <div className="container-x">
-                    <div className="timeline-block timeline-block-right">
+                    {/* <div className="timeline-block timeline-block-right">
                         <div className="marker"></div>
                         <div className="timeline-content">
                             <h3>02/2021</h3>
@@ -85,7 +85,7 @@ export default function Roadmap() {
                             <h3>10/2022</h3>
                             <span>Start stalking program</span>
                         </div>
-                    </div>
+                    </div> */}
 
                     <div className="timeline-block timeline-block-left">
                         <div className="marker"></div>
@@ -126,6 +126,23 @@ export default function Roadmap() {
                             <span>Research on 3D new platform</span>
                         </div>
                     </div>
+
+                    <div className="timeline-block timeline-block-right">
+                        <div className="marker"></div>
+                        <div className="timeline-content">
+                            <h3>2026</h3>
+                            <span>Research on 3D new platform</span>
+                        </div>
+                    </div>
+
+                    <div className="timeline-block timeline-block-left">
+                        <div className="marker"></div>
+                        <div className="timeline-content">
+                            <h3>2027</h3>
+                            <span>IPO on London Stock Exchange</span>
+                        </div>
+                    </div>
+
                 </div>
             </div>
         </div>
