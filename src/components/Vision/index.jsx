@@ -15,10 +15,9 @@ export default function Vision() {
                         </div>
                     </div>
                     <div className="paragraph">
-                        In the short term, we aspire to become a multi-channel, cross-platform gaming environment that attracts many exciting games and tournaments. The venue for a professional esport tournament in the digital space. We create a playground for esports teams to have explosive confrontations.
+                        In the short term, we aspire to become a multi-channel, cross-platform gaming environment that attracts many exciting games and tournaments. The venue for a professional esports tournament in the digital space. We create a playground for esports teams to have explosive confrontations.
                         <br />
                         In the long term, MOBATECH targets becoming one of the top 5 game service management enterprises in the world. Promotional support for potential games. We will build a metaverse exclusively for gamers.
- 
                     </div>
                 </div>
 

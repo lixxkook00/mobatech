@@ -19,9 +19,7 @@ export default function Story() {
                         </div>
                     </div>
                     <div className="paragraph">
-                        MOBATECH is an independent software provider, technology research and investment. We are delivering open gaming platforms and professional services to both the online and land based gaming sectors. 
-                        We believe in value driven technology solutions that simplify your business whether you are an operator, vendor or regulator.
-                        .
+                        MOBATECH is an independent software provider, technology research, and investment. We are delivering open gaming platforms and professional services to both the online and land-based gaming sectors. We believe in value-driven technology solutions that simplify your business whether you are an operator, vendor, or regulator.
                     </div>
                 </div>
             </div>

@@ -40,6 +40,7 @@
     }
 
     &-percent{
+        text-align: center;
 
         &-num{
             font-size: 55px;
@@ -72,9 +73,9 @@
         }
 
         &-name{
-            min-height: 60px;
-            font-size: 14px;
-            font-weight: 500;
+            min-height: 80px;
+            font-size: 18px;
+            font-weight: 600;
         }
     }
 }

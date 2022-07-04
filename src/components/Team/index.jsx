@@ -28,7 +28,7 @@ export default function Team() {
                             </div>
 
                             <div className="team-infor-name">
-                                Nark Butcher
+                                MARK BUTCHER
                             </div>
 
                             <div className="team-infor-job">
@@ -36,7 +36,7 @@ export default function Team() {
                             </div>
 
                             <div className="team-infor-desc">
-                                Utilizing many of the same tactics commonly used today. From my then unprecedented guerrilla operating and branding techniques to the continuously innovative ways in which I use brand integration. and remain a cutting edge business strategist.
+                                Utilizing many of the same tactics commonly used today. From my then unprecedented guerrilla operating and branding techniques to the continuously innovative ways in which I use brand integration, and remain a cutting edge business strategist.
                             </div>
 
                             <div className="team-infor-social">

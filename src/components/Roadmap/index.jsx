@@ -15,78 +15,6 @@ export default function Roadmap() {
                     </div>
                 </div>
                 <div className="container-x">
-                    {/* <div className="timeline-block timeline-block-right">
-                        <div className="marker"></div>
-                        <div className="timeline-content">
-                            <h3>02/2021</h3>
-                            <span>Idea and Planning</span>
-                        </div>
-                    </div>
-
-                    <div className="timeline-block timeline-block-left">
-                        <div className="marker"></div>
-                        <div className="timeline-content">
-                            <h3>05/2021</h3>
-                            <span>Market demand survey</span>
-                        </div>
-                    </div>
-
-                    <div className="timeline-block timeline-block-right">
-                        <div className="marker"></div>
-                        <div className="timeline-content">
-                            <h3>07/2021</h3>
-                            <span>Solution thinking</span>
-                        </div>
-                    </div>
-
-                    <div className="timeline-block timeline-block-left">
-                        <div className="marker"></div>
-                        <div className="timeline-content">
-                            <h3>09/2021</h3>
-                            <span>Logical flow and operating plan</span>
-                        </div>
-                    </div>
-
-                    <div className="timeline-block timeline-block-right">
-                        <div className="marker"></div>
-                        <div className="timeline-content">
-                            <h3>04/2022</h3>
-                            <span>Test applying blockchain</span>
-                        </div>
-                    </div>
-
-                    <div className="timeline-block timeline-block-left">
-                        <div className="marker"></div>
-                        <div className="timeline-content">
-                            <h3>05/2022</h3>
-                            <span>Layout Design</span>
-                        </div>
-                    </div>
-
-                    <div className="timeline-block timeline-block-right">
-                        <div className="marker"></div>
-                        <div className="timeline-content">
-                            <h3>06/2022</h3>
-                            <span>Token and basic platform building</span>
-                        </div>
-                    </div>
-
-                    <div className="timeline-block timeline-block-left">
-                        <div className="marker"></div>
-                        <div className="timeline-content">
-                            <h3>07/2022</h3>
-                            <span>Kicks off ICO program</span>
-                        </div>
-                    </div>
-
-                    <div className="timeline-block timeline-block-right">
-                        <div className="marker"></div>
-                        <div className="timeline-content">
-                            <h3>10/2022</h3>
-                            <span>Start stalking program</span>
-                        </div>
-                    </div> */}
-
                     <div className="timeline-block timeline-block-left">
                         <div className="marker"></div>
                         <div className="timeline-content">
@@ -115,7 +43,7 @@ export default function Roadmap() {
                         <div className="marker"></div>
                         <div className="timeline-content">
                             <h3>Q2/2024</h3>
-                            <span>Massive community marketing, partner boning and run business</span>
+                            <span>Massive community marketing, partner bonding and run business</span>
                         </div>
                     </div>
 
@@ -131,7 +59,7 @@ export default function Roadmap() {
                         <div className="marker"></div>
                         <div className="timeline-content">
                             <h3>2026</h3>
-                            <span>Research on 3D new platform</span>
+                            <span>Release metaverse platform and new business model</span>
                         </div>
                     </div>
 
