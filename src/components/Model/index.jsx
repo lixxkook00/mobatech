@@ -3,11 +3,10 @@ import { useGLTF } from "@react-three/drei";
 
 export default function Model({ ...props }) {
   const group = useRef();
-
   const { nodes, materials } = useGLTF("./images/CEO.glb");
   return (
     <group ref={group} {...props} dispose={null}>
-      <group position={[0, 0.1, 0]}>
+      <group position={[0, 0.11, 0]}>
         <primitive object={nodes.Hips} />
         <skinnedMesh
           name="EyeLeft"
@@ -26,14 +25,6 @@ export default function Model({ ...props }) {
           morphTargetInfluences={nodes.EyeRight.morphTargetInfluences}
         />
         <skinnedMesh
-          name="Wolf3D_Beard"
-          geometry={nodes.Wolf3D_Beard.geometry}
-          material={materials.Wolf3D_Beard}
-          skeleton={nodes.Wolf3D_Beard.skeleton}
-          morphTargetDictionary={nodes.Wolf3D_Beard.morphTargetDictionary}
-          morphTargetInfluences={nodes.Wolf3D_Beard.morphTargetInfluences}
-        />
-        <skinnedMesh
           name="Wolf3D_Head"
           geometry={nodes.Wolf3D_Head.geometry}
           material={materials.Wolf3D_Skin}
@@ -47,11 +38,6 @@ export default function Model({ ...props }) {
           skeleton={nodes.Wolf3D_Hair.skeleton}
         />
         <skinnedMesh
-          geometry={nodes.Wolf3D_Outfit_Footwear.geometry}
-          material={materials.Wolf3D_Outfit_Footwear}
-          skeleton={nodes.Wolf3D_Outfit_Footwear.skeleton}
-        />
-        <skinnedMesh
           name="Wolf3D_Teeth"
           geometry={nodes.Wolf3D_Teeth.geometry}
           material={materials.Wolf3D_Teeth}
@@ -60,26 +46,33 @@ export default function Model({ ...props }) {
           morphTargetInfluences={nodes.Wolf3D_Teeth.morphTargetInfluences}
         />
         <skinnedMesh
+          geometry={nodes.Wolf3D_Outfit_Footwear.geometry}
+          material={materials.Wolf3D_Outfit_Footwear}
+          skeleton={nodes.Wolf3D_Outfit_Footwear.skeleton}
+        />
+        <skinnedMesh
           geometry={nodes.Wolf3D_Outfit_Bottom.geometry}
           material={materials.Wolf3D_Outfit_Bottom}
           skeleton={nodes.Wolf3D_Outfit_Bottom.skeleton}
-        />
-        <skinnedMesh
-          geometry={nodes.Wolf3D_Body.geometry}
-          material={materials.Wolf3D_Body}
-          skeleton={nodes.Wolf3D_Body.skeleton}
         />
         <skinnedMesh
           geometry={nodes.Wolf3D_Outfit_Top.geometry}
           material={materials.Wolf3D_Outfit_Top}
           skeleton={nodes.Wolf3D_Outfit_Top.skeleton}
         />
+        <skinnedMesh
+          geometry={nodes.Wolf3D_Body.geometry}
+          material={materials.Wolf3D_Body}
+          skeleton={nodes.Wolf3D_Body.skeleton}
+        />
       </group>
       <mesh
+        castShadow
+        receiveShadow
         geometry={nodes.Cylinder.geometry}
         material={materials["Material.001"]}
-        position={[0, 0.05, 0]}
-        scale={[1, 0.28, 1]}
+        position={[0, 0.06, 0]}
+        scale={[0.8, 1, 0.8]}
       />
     </group>
   );
