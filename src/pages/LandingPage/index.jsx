@@ -76,7 +76,7 @@ export default function LandingPage() {
             </div>
 
             <div className="tempty-title">
-                <a href="https://mobatech-shop.vercel.app/staking" className="nav-item">
+                <a href="https://mobatech-home.vercel.app/staking" className="nav-item">
                     <div className="nav-item-name nav-item-name--primary">
                         Staking
                     </div>
@@ -92,7 +92,7 @@ export default function LandingPage() {
             </div>
 
             <div className="tempty-title">
-                <a href="/" className="nav-item">
+                <a href="https://mobatech-home.vercel.app/signin" className="nav-item">
                     <div className="nav-item-name nav-item-name--primary">
                         Sign Up/Register
                     </div>
