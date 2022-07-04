@@ -6,7 +6,7 @@ export default function Intro() {
     
     const [xLogo , setXLogo] = useState(0)
     const [yLogo , setYLogo] = useState(0)
-
+    
     const handleMouseMove = (e) => {
         setXLogo(e.clientX/80)
         setYLogo(e.clientY/60)
